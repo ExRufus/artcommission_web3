@@ -1,0 +1,318 @@
+.artist-chart-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.artist-chart-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.artist-chart-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.artist-chart-image {
+  width: 200px;
+  object-fit: cover;
+}
+.artist-chart-icon {
+  width: 24px;
+  height: 24px;
+}
+.artist-chart-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.artist-chart-image1 {
+  width: 200px;
+  object-fit: cover;
+}
+.artist-chart-icon2 {
+  width: 24px;
+  height: 24px;
+}
+.artist-chart-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.artist-chart-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+.artist-chart-icon4 {
+  width: 24px;
+  height: 24px;
+}
+.artist-chart-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+}
+.artist-chart-image3 {
+  width: 200px;
+  object-fit: cover;
+}
+.artist-chart-icon6 {
+  width: 24px;
+  height: 24px;
+}
+
+
+@media(max-width: 1600px) {
+  .artist-chart-container {
+    height: 269px;
+    align-items: center;
+    justify-content: center;
+  }
+  .artist-chart-container1 {
+    width: 593px;
+    height: 271px;
+    align-self: center;
+  }
+  .artist-chart-container2 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .artist-chart-text {
+    font-size: 2rem;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .artist-chart-image {
+    width: 43px;
+    height: 44px;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .artist-chart-text01 {
+    font-size: 2rem;
+    align-self: center;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: var(--dl-space-space-tripleunit);
+  }
+  .artist-chart-icon {
+    width: 37px;
+    height: 34px;
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .artist-chart-text02 {
+    font-size: 2rem;
+    align-self: center;
+  }
+  .artist-chart-container3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .artist-chart-text03 {
+    font-size: 2rem;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .artist-chart-image1 {
+    width: 43px;
+    height: 44px;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .artist-chart-text04 {
+    font-size: 2rem;
+    align-self: center;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: var(--dl-space-space-tripleunit);
+  }
+  .artist-chart-icon2 {
+    width: 37px;
+    height: 34px;
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .artist-chart-text05 {
+    font-size: 2rem;
+    align-self: center;
+  }
+  .artist-chart-container4 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .artist-chart-text06 {
+    font-size: 2rem;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .artist-chart-image2 {
+    width: 43px;
+    height: 44px;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .artist-chart-text07 {
+    font-size: 2rem;
+    align-self: center;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: var(--dl-space-space-tripleunit);
+  }
+  .artist-chart-icon4 {
+    width: 37px;
+    height: 34px;
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .artist-chart-text08 {
+    font-size: 2rem;
+    align-self: center;
+  }
+  .artist-chart-container5 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .artist-chart-text09 {
+    font-size: 2rem;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+  }
+  .artist-chart-image3 {
+    width: 43px;
+    height: 44px;
+    align-self: center;
+    margin-left: var(--dl-space-space-doubleunit);
+    border-radius: var(--dl-radius-radius-round);
+  }
+  .artist-chart-text10 {
+    font-size: 2rem;
+    align-self: center;
+    margin-left: var(--dl-space-space-tripleunit);
+    margin-right: var(--dl-space-space-tripleunit);
+  }
+  .artist-chart-icon6 {
+    width: 37px;
+    height: 34px;
+    align-self: center;
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .artist-chart-text11 {
+    font-size: 2rem;
+    align-self: center;
+  }
+}
+@media(max-width: 1200px) {
+  .artist-chart-container {
+    width: auto;
+    height: 273px;
+  }
+  .artist-chart-container1 {
+    width: auto;
+    height: auto;
+  }
+  .artist-chart-container2 {
+    width: 399px;
+    border-radius: var(--dl-radius-radius-radius5);
+    background-color: #ffffff;
+  }
+  .artist-chart-text {
+    font-size: 18px;
+  }
+  .artist-chart-image {
+    width: 32px;
+    height: 33px;
+  }
+  .artist-chart-text01 {
+    font-size: 14px;
+  }
+  .artist-chart-icon {
+    width: auto;
+    height: 22px;
+  }
+  .artist-chart-text02 {
+    font-size: 14px;
+  }
+  .artist-chart-container3 {
+    width: 399px;
+    border-radius: var(--dl-radius-radius-radius5);
+    background-color: #ffffff;
+  }
+  .artist-chart-text03 {
+    font-size: 18px;
+  }
+  .artist-chart-image1 {
+    width: 32px;
+    height: 33px;
+  }
+  .artist-chart-text04 {
+    font-size: 14px;
+  }
+  .artist-chart-icon2 {
+    width: auto;
+    height: 22px;
+  }
+  .artist-chart-text05 {
+    font-size: 14px;
+  }
+  .artist-chart-container4 {
+    width: 399px;
+    border-radius: var(--dl-radius-radius-radius5);
+    background-color: #ffffff;
+  }
+  .artist-chart-text06 {
+    font-size: 18px;
+  }
+  .artist-chart-image2 {
+    width: 32px;
+    height: 33px;
+  }
+  .artist-chart-text07 {
+    font-size: 14px;
+  }
+  .artist-chart-icon4 {
+    width: auto;
+    height: 22px;
+  }
+  .artist-chart-text08 {
+    font-size: 14px;
+  }
+  .artist-chart-container5 {
+    width: 399px;
+    border-radius: var(--dl-radius-radius-radius5);
+    background-color: #ffffff;
+  }
+  .artist-chart-text09 {
+    font-size: 18px;
+  }
+  .artist-chart-image3 {
+    width: 32px;
+    height: 33px;
+  }
+  .artist-chart-text10 {
+    font-size: 14px;
+  }
+  .artist-chart-icon6 {
+    width: auto;
+    height: 22px;
+  }
+  .artist-chart-text11 {
+    font-size: 14px;
+  }
+  .artist-chart-root-class-name {
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-sixunits);
+  }
+  .artist-chart-root-class-name1 {
+    align-self: flex-start;
+    margin-left: var(--dl-space-space-sixunits);
+  }
+}

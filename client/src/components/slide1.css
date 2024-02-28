@@ -1,0 +1,38 @@
+.slide1-slide {
+  align-items: center;
+  justify-content: center;
+}
+.slide1-max-wdith {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+.slide1-text {
+  color: var(--dl-color-scheme-white);
+}
+.slide1-root-class-name {
+  background-size: cover;
+  background-image: url("/curved5-200h.jpg");
+}
+.slide1-root-class-name1 {
+  background-size: cover;
+  background-image: url("/curved5-200h.jpg");
+}
+.slide1-root-class-name2 {
+  background-color: #FB275A;
+}
+.slide1-root-class-name3 {
+  background-size: cover;
+  background-image: url("/curved6-200h.jpg");
+}
+.slide1-root-class-name4 {
+  background-color: #0D1F3A;
+}
+.slide1-root-class-name5 {
+  background-size: cover;
+  background-image: url("/team-2-200h.jpg");
+}
+.slide1-root-class-name6 {
+  background-size: cover;
+  background-image: url("/bruce-mars-1400w.jpg");
+}

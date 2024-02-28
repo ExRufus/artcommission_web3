@@ -1,0 +1,120 @@
+.checkout-blog-post-card {
+  width: 678px;
+  display: flex;
+  max-width: 1400px;
+  flex-direction: row;
+  justify-content: center;
+}
+.checkout-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius75);
+  background-color: #ffffff;
+}
+.checkout-image {
+  width: 222px;
+  height: 223px;
+  object-fit: cover;
+}
+.checkout-container1 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: 32px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.checkout-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+}
+.checkout-container3 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 50%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checkout-text {
+  font-size: 2rem;
+  align-self: center;
+}
+.checkout-icon {
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-left: 15rem;
+}
+.checkout-container4 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.checkout-text1 {
+  color: var(--dl-color-gray-500);
+  font-size: 1rem;
+  margin-bottom: var(--dl-space-space-tripleunit);
+}
+.checkout-text2 {
+  color: var(--dl-color-gray-black);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+
+.checkout-root-class-name4 {
+  align-self: center;
+  background-color: #ffffff;
+}
+.checkout-root-class-name5 {
+  background-color: #ffffff;
+}
+.checkout-root-class-name6 {
+  background-color: #ffffff;
+}
+.checkout-root-class-name7 {
+  background-color: #ffffff;
+}
+
+
+
+@media(max-width: 991px) {
+  .checkout-image {
+    width: 50%;
+  }
+}
+@media(max-width: 767px) {
+  .checkout-blog-post-card {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .checkout-image {
+    width: 100%;
+  }
+  .checkout-container1 {
+    width: 100%;
+  }
+  .checkout-text {
+    margin-bottom: 32px;
+  }
+  .checkout-container4 {
+    margin-bottom: 32px;
+  }
+}
+@media(max-width: 479px) {
+  .checkout-text2 {
+    width: auto;
+  }
+}

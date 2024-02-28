@@ -1,0 +1,14 @@
+.chart-rank-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+}
+@media(max-width: 1200px) {
+  .chart-rank-container {
+    height: 272px;
+    align-self: flex-start;
+    background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgb(233, 244, 255) 100.00%);
+  }
+}
