@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
 import './blog-card.css'
 
+
 const BlogCard = (props) => {
   return (
+    <Link to="/details-of-project" className="profile-other-people">
     <div className={`blog-card-container ${props.rootClassName} `}>
       <img
         alt={props.imageAlt}
@@ -17,7 +20,9 @@ const BlogCard = (props) => {
         <span className="">{props.description}</span>
       </div>
     </div>
+    </Link>
   )
+  
 }
 
 BlogCard.defaultProps = {

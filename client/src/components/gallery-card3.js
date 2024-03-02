@@ -1,24 +1,27 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
-
 import './gallery-card3.css'
+
 
 const GalleryCard3 = (props) => {
   return (
-    <div className={`gallery-card3-gallery-card ${props.rootClassName} `}>
-      <div className="gallery-card3-container">
-        <div className="gallery-card3-gallery-card1">
-          <img
-            alt={props.imageAlt1}
-            src={props.imageSrc1}
-            className="gallery-card3-image"
-          />
-          <h2 className="gallery-card3-text">{props.title1}</h2>
-          <span className="gallery-card3-text1">{props.subtitle1}</span>
+    <Link to="/details-of-project" className="detail-of-project">
+      <div className={`gallery-card3-gallery-card ${props.rootClassName} `}>
+        <div className="gallery-card3-container">
+          <div className="gallery-card3-gallery-card1">
+            <img
+              alt={props.imageAlt1}
+              src={props.imageSrc1}
+              className="gallery-card3-image"
+            />
+            <h2 className="gallery-card3-text">{props.title1}</h2>
+            <span className="gallery-card3-text1">{props.subtitle1}</span>
+          </div>
         </div>
       </div>
-    </div>
+      </Link>
   )
 }
 

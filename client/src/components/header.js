@@ -1,31 +1,47 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
+import Popup from './Popup'
+import ProfileBarUnhover from './profile-bar-unhover'
+import ConnectWallet from './connect-wallet'
 
 import './header.css'
 
 const Header = (props) => {
+  const [buttonPopup, setButtonPopup ] = useState(false)
   return (
     <header
       data-role="Header"
       className={`header-header ${props.rootClassName} `}
     >
-      <span className="header-text">{props.text}</span>
+      <Link to="/" className="profile-other-people">
+        <span className="header-text">{props.text}</span>
+      </Link>  
       <div className="header-nav"></div>
       <div className="header-btn-group">
         <Link to="/payment-flow" className="header-login button">
           {props.login}
         </Link>
+          {/* <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+          NOTIFIKASI
+            <ProfileBarUnhover trigger={buttonPopup} setTrigger={setButtonPopup} />
+          </Popup> */}
         <svg viewBox="0 0 1024 1024" className="header-icon">
           <path d="M768 682l86 86v42h-684v-42l86-86v-212q0-100 51-174t141-96v-30q0-26 18-45t46-19 46 19 18 45v30q90 22 141 96t51 174v212zM512 938q-36 0-61-24t-25-60h172q0 34-26 59t-60 25z"></path>
         </svg>
-        <img
-          alt={props.imageAlt1}
-          src={props.imageSrc1}
-          className="header-image"
-        />
+        <button onClick={() => setButtonPopup(true)}>
+          <img
+            alt={props.imageAlt1}
+            src={props.imageSrc1}
+            className="header-image"
+          />
+        </button>
       </div>
+        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+          <ProfileBarUnhover trigger={buttonPopup} setTrigger={setButtonPopup} />
+        </Popup>
+        {/* HOVER */}
       <div data-role="BurgerMenu" className="header-burger-menu">
         <svg viewBox="0 0 1024 1024" className="header-icon02">
           <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>

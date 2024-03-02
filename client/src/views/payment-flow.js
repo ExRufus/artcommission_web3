@@ -28,9 +28,11 @@ const PaymentFlow = (props) => {
         </span>
         <div className="payment-flow-container02">
           <div className="payment-flow-blog">
+          <Link to="/details-of-project" className="cart-detail-of-project">
             <div className="payment-flow-container03">
               <Checkout rootClassName="rootClassName4"></Checkout>
             </div>
+          </Link>
             <div className="payment-flow-container04">
               <Checkout rootClassName="rootClassName6"></Checkout>
             </div>

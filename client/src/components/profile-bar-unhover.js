@@ -10,7 +10,7 @@ const ProfileBarUnhover = (props) => {
     <div className="profile-bar-unhover-container">
       <div className="profile-bar-unhover-container1">
         <Link
-          to="/profile-other-people-how-they-see"
+          to="/profile-add-more-art-etc"
           className="profile-bar-unhover-navlink"
         >
           <div className="profile-bar-unhover-container2">

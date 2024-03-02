@@ -39,7 +39,7 @@
   --dl-radius-radius-radius75: 0.75rem;
   --dl-size-size-unitandahalf: 1.5rem;
   --dl-space-space-doubleunit: 2rem;
-  --dl-space-space-tripleunit: 3rem;
+  --dl-space-space-tripleunit: 2rem 3rem 2rem 3rem; /*modified*/
   --dl-space-space-twelveunits: 12rem;
   --dl-size-size-triplequarterunit: 0.75rem;
   --dl-space-space-oneandhalfunits: 24px;

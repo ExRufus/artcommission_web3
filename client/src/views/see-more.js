@@ -39,6 +39,7 @@ const SeeMore = (props) => {
           <BlogCard></BlogCard>
           <BlogCard></BlogCard>
         </div>
+
         <div className="see-more-container3">
           <BlogCard></BlogCard>
           <BlogCard></BlogCard>

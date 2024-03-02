@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
@@ -12,7 +12,7 @@ import './home.css'
 const Home = (props) => {
   return (
     <div className="home-container">
-      <Helmet>
+      <Helmet> 
         <title>DevXPro</title>
         <meta property="og:title" content="DevXPro" />
       </Helmet>
@@ -26,6 +26,7 @@ const Home = (props) => {
           <GalleryCard3 rootClassName="rootClassName7"></GalleryCard3>
           <GalleryCard3 rootClassName="rootClassName6"></GalleryCard3>
           <GalleryCard3 rootClassName="rootClassName4"></GalleryCard3>
+       
         </div>
       </div>
       <h1 className="home-text">Discover our unique artists</h1>
@@ -86,6 +87,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="home-container08">
+          <Link to="/profile-other-people-how-they-see" className="home-profile-other-people">
             <div className="home-container09">
               <span className="home-text13">1</span>
               <img
@@ -99,6 +101,8 @@ const Home = (props) => {
               </svg>
               <span className="home-text15">5.0</span>
             </div>
+          </Link>
+            
             <div className="home-container10">
               <span className="home-text16">1</span>
               <img

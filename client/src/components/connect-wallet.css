@@ -1,9 +1,11 @@
 .connect-wallet-container {
   width: auto;
   height: auto;
-  display: flex;
+  display: inline;
+  top: 35vh;
+  left: 35vw;
   padding: var(--dl-space-space-halfunit);
-  position: relative;
+  position: absolute;
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-radius75);
   flex-direction: column;
@@ -30,6 +32,7 @@
   height: 24px;
   align-self: center;
   margin-left: 18rem;
+  margin-top: 1rem;
 }
 .connect-wallet-container2 {
   flex: 0 0 auto;

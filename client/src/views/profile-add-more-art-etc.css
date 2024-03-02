@@ -121,10 +121,11 @@
   margin-right: var(--dl-space-space-unit);
 }
 .profile-add-more-art-etc-icon4 {
-  width: 24px;
-  height: 24px;
+  width: 7rem;
+  height: 7rem;
   align-self: center;
-  margin-left: 62rem;
+  margin-left: 59rem;
+  margin-top: 6%;
 }
 .profile-add-more-art-etc-container05 {
   width: 100%;

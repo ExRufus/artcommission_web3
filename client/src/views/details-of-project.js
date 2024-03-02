@@ -93,6 +93,7 @@ const DetailsOfProject = (props) => {
               ></Slide1>
             </div>
             <div className="details-of-project-slider-controls">
+              {/* SLIDE */}
               <div
                 data-action="previousSlide"
                 className="details-of-project-go-left"

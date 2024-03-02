@@ -1,41 +1,44 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
-
 import './card-freelance.css'
+
 
 const CardFreelance = (props) => {
   return (
-    <div className={`card-freelance-gallery-card ${props.rootClassName} `}>
-      <div className="card-freelance-container">
-        <img
-          alt={props.imageAlt}
-          src={props.imageSrc}
-          className="card-freelance-image"
-        />
-        <div className="card-freelance-container1">
+    <Link to="/details-of-project" className="card-freelance">
+      <div className={`card-freelance-gallery-card ${props.rootClassName} `}>
+        <div className="card-freelance-container">
           <img
-            alt={props.imageAlt1}
-            src={props.imageSrc1}
-            className="card-freelance-image1"
+            alt={props.imageAlt}
+            src={props.imageSrc}
+            className="card-freelance-image"
           />
-          <h2 className="card-freelance-heading">{props.title1}</h2>
-        </div>
-        <div className="card-freelance-container2">
-          <span className="card-freelance-text">{props.subtitle11}</span>
-        </div>
-        <div className="card-freelance-container3">
-          <svg viewBox="0 0 1024 1024" className="card-freelance-icon">
-            <path
-              d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
-              className=""
-            ></path>
-          </svg>
-          <span className="card-freelance-text1">{props.subtitle113}</span>
-          <span className="card-freelance-text2">{props.subtitle1131}</span>
+          <div className="card-freelance-container1">
+            <img
+              alt={props.imageAlt1}
+              src={props.imageSrc1}
+              className="card-freelance-image1"
+            />
+            <h2 className="card-freelance-heading">{props.title1}</h2>
+          </div>
+          <div className="card-freelance-container2">
+            <span className="card-freelance-text">{props.subtitle11}</span>
+          </div>
+          <div className="card-freelance-container3">
+            <svg viewBox="0 0 1024 1024" className="card-freelance-icon">
+              <path
+                d="M512 736l-264 160 70-300-232-202 306-26 120-282 120 282 306 26-232 202 70 300z"
+                className=""
+              ></path>
+            </svg>
+            <span className="card-freelance-text1">{props.subtitle113}</span>
+            <span className="card-freelance-text2">{props.subtitle1131}</span>
+          </div>
         </div>
       </div>
-    </div>
+    </Link>
   )
 }
 

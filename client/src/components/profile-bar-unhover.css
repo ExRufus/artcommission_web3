@@ -1,10 +1,13 @@
 .profile-bar-unhover-container {
   width: 100%;
   height: 400px;
-  display: flex;
-  position: relative;
+  left: 85%;
+  top:85%;
+  display: inline;
+  position: absolute;
   align-items: flex-start;
   flex-direction: column;
+  background-color: #ffffff;
 }
 .profile-bar-unhover-container1 {
   flex: 0 0 auto;
@@ -15,7 +18,7 @@
   border-radius: var(--dl-radius-radius-radius75);
   flex-direction: column;
   justify-content: center;
-  background-color: #ffffff;
+  
 }
 .profile-bar-unhover-navlink {
   display: contents;

@@ -1,14 +1,16 @@
 .header-header {
   width: 100%;
   display: flex;
-  position: relative;
+  position: fixed;
   max-width: none;
   align-items: flex-start;
-  padding-top: 32px;
-  padding-left: 48px;
-  padding-right: 48px;
-  padding-bottom: 32px;
+  padding-top: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 0.8rem;
   justify-content: space-between;
+  background-color: white;
+  z-index: 999;
 }
 .header-text {
   color: #000000;
@@ -17,6 +19,7 @@
   font-style: normal;
   font-family: "Poppins";
   font-weight: 700;
+  cursor: pointer;
 }
 .header-nav {
   display: flex;
@@ -42,6 +45,7 @@
 .header-image {
   width: 34px;
   object-fit: cover;
+  cursor: pointer;
 }
 .header-burger-menu {
   display: none;
@@ -103,7 +107,7 @@
 }
 @media(max-width: 1600px) {
   .header-text {
-    color: #ffffff;
+    color: #000000;
     font-size: 2rem;
     font-style: normal;
     font-family: Poppins;

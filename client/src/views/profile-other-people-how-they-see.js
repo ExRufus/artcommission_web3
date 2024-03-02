@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import Header from '../components/header'
@@ -64,9 +64,11 @@ const ProfileOtherPeopleHowTheySee = (props) => {
             <span>My Artwork</span>
             <br></br>
           </h1>
-          <span className="profile-other-people-how-they-see-text11 Small">
-            See more &gt;
-          </span>
+          <Link to="/see-more" className="profile-other-people">
+            <span className="profile-other-people-how-they-see-text11 Small">
+              See more &gt;
+            </span>
+          </Link>
         </div>
         <div className="profile-other-people-how-they-see-container05">
           <BlogCard></BlogCard>
